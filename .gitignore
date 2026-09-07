@@ -19,10 +19,8 @@ env/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs / temporary files
 *.log
-
-# Temporary files
 *.tmp
 *.temp
 
@@ -35,7 +33,28 @@ dist/
 .env
 .env.*
 
-# Large/raw data files
-data/raw/
-data/*.zip
-data/*.rar
+# Raw / local datasets
+data/
+*.csv
+
+# Intermediate ML models
+models/*.joblib
+
+# Keep final production model
+!models/eta_model_final_tail_aware.joblib
+
+# Keep final feature metadata
+!models/feature_metadata.joblib
+
+# Generated/intermediate reports
+reports/*
+
+# Keep the important final project report
+!reports/FINAL_PROJECT_REPORT.md
+
+# Keep final model evaluation tables
+!reports/model_comparison.csv
+!reports/tail_aware_model_comparison.csv
+!reports/final_model_configuration.csv
+!reports/final_model_features.csv
+!reports/operational_scenario_predictions.csv
