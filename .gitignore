@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Secrets / environment
+.env
+.env.*
+
+# Large/raw data files
+data/raw/
+data/*.zip
+data/*.rar

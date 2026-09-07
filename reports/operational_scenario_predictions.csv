@@ -1,0 +1,11 @@
+scenario,description,Road_traffic_density,Weatherconditions,multiple_deliveries,Festival,distance_km,predicted_eta_min,predicted_long_delivery,eta_change_vs_baseline
+Baseline,Typical evening order with medium traffic,Medium,Cloudy,1,No,4.515723143882102,24.99,False,0.0
+Heavy Traffic,Same order under jam traffic,Jam,Cloudy,1,No,4.515723143882102,24.99,False,0.0
+Low Traffic,Same order under low traffic,Low,Cloudy,1,No,4.515723143882102,24.99,False,0.0
+Sunny Weather,Same order under sunny weather,Medium,Sunny,1,No,4.515723143882102,24.99,False,0.0
+Stormy Weather,Same order under stormy weather,Medium,Stormy,1,No,4.515723143882102,24.99,False,0.0
+Multiple Deliveries,Rider is handling three deliveries,Medium,Cloudy,3,No,4.515723143882102,36.99,False,12.000002
+Festival,Order occurs during a festival,Medium,Cloudy,1,Yes,4.515723143882102,24.99,False,0.0
+Short Distance,Shorter restaurant-to-customer distance,Medium,Cloudy,1,No,1.4056821719495336,23.13,False,-1.8600006
+Longer Distance,Longer restaurant-to-customer distance,Medium,Cloudy,1,No,19.894281236520936,26.61,False,1.6200008
+Peak + Jam + Multiple,Combined high-risk operational conditions,Jam,Cloudy,3,No,4.515723143882102,36.99,False,12.000002

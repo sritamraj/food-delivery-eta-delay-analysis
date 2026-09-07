@@ -1,0 +1,3 @@
+model,MAE,RMSE,R2,overall_signed_error,long_delivery_count,long_delivery_MAE,long_delivery_RMSE,long_delivery_signed_error,geographic_cleaning
+Baseline XGBoost,3.0601943783407357,3.8534596010706847,0.8333151728751527,0.02399450902007247,344,4.703178056450778,5.9444422243993325,-4.1057210578474885,distance<=50km and coordinate differences<=5deg
+Tail-Aware XGBoost,3.0801667599540723,3.863202597631217,0.8324712233234997,0.14059322945214073,344,4.044650987137196,5.174466307868115,-3.2804087483605673,distance<=50km and coordinate differences<=5deg

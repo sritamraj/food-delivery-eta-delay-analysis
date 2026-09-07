@@ -1,0 +1,16 @@
+feature
+Delivery_person_Age
+Delivery_person_Ratings
+Weatherconditions
+Road_traffic_density
+Vehicle_condition
+Type_of_order
+Type_of_vehicle
+multiple_deliveries
+Festival
+City
+distance_km
+order_hour
+is_peak_hour
+order_dayofweek
+is_weekend
